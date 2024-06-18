@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(47, 3, 94);
+}
+
+header {
+    background-color: white;
+
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: black;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980b9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display:block
+}
+
+.button {
+    text-align: right;
+    position: relative;
+    border-radius: 6px;
+    font-size: medium;
+    background: #7d2ae8;
+    color: white;
+    text-transform: capitalize;
+    margin-right: 30px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    margin-top: 0px;
+
+}
+
+.bg {
+    background-image: url(https://learn.g2.com/hubfs/web_developer.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation: fade-in-bg 2s ease forwards;
+    margin: 0;
+    opacity: o.4;
+
+}
+
+.text {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-blend-mode: overlay;
+    animation: fade-in-text 5s ease forwards;
+    border: 2px solid white;
+    margin: 0;
+
+}
+
+.bio {
+    font-size: small;
+    color: whitesmoke;
+
+}
+
+
+@keyframes fade-in-bg {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-text {
+    0% {
+        opacity: 0;
+        transform:translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.para-1 {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.img {
+    background-image: url(https://wpcontent.innovanathinklabs.com/blog_innovana/wp-content/uploads/2020/07/10193306/Apple-Rolls-Out-New-Updated-Coding-Programs-for-Educators-and-Students.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    position: relative;
+}
+
+.para-2 {
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.img2 {
+    background-image: url(https://th.bing.com/th/id/OIP.OHB8dR_-3wy_c9vfr4zWqgHaDt?w=1200&h=600&rs=1&pid=ImgDetMain);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.para-3 {
+    background-color: black;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    color: white;
+}
+
+.img3 {
+    background-image: url();
+}
+
+.offer {
+    text-align: center;
+    font-size: larger;
+    font-family: fantasy;
+    margin-top: 10px;
+    background-color: bisque;
+}
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: rgb(47, 3, 94);
+    padding: 5px;
+    margin: 10px;
+}
+
+#left {
+    margin: 10px;
+    font-size: 19px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    box-shadow: 10px 10px black;
+    background-color: #5f43b2;
+    border-radius: 10px;
+}
+
+.doubt {
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: inset;
+    
+    
+}
+
+
+#center {
+    margin: 10px;
+        font-size: 19px;
+        padding: 5px;
+        color: white;
+        box-shadow: 10px 10px black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #5f43b2;
+    border-radius: 10px;
+}
+
+#right {
+    margin: 10px;
+        font-size: 19px;
+        padding: 5px;
+        color: white;
+        box-shadow: 10px 10px black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #5f43b2;
+    border-radius: 10px;
+}
+
+.top {
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blueviolet;
+    color: white;
+
+}
+
+.slide > div {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #5f43b2;
+}
+
+.link {
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #7d2ae8;
+    transition: all 0.2 ease;
+    box-shadow: 2px 2px black;
+    margin-top: 400px;
+    margin-left: 10px;
+    
+}
+
+.bg {
+    text-align: center;
+}
+
+link:active {
+    transform: scale(0.96);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.offer {
+    position: relative;
+    color: white;
+    margin: 10px auto 0;
+    background: linear-gradient(0deg, #000, #272727);
+
+}
+
+.offer:before, .offer:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+}
+@keyframes steam {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.offer:after {
+    filter: blur(50px);
+}
+
+.img4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://learn.g2.com/hubfs/web_developer.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    margin: 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+.text1 {
+    position: relative;
+    color: white;
+    margin: 10px auto 0;
+    background: linear-gradient(to right, red, orange);
+    text-align: center;
+    
+    
+}
+
+.button2 {
+    color: #fff;
+        padding: 8px 22px;
+        border-radius: 6px;
+        background: #7d2ae8;
+        transition: all 0.2 ease;
+        box-shadow: 2px 2px black;
+        margin-top: 400px;
+        margin-left: 700px;
+}
+
+@media (max-width: 500px) {
+    .dropdown {
+        width: 350px;
+    }
+
+    .text {
+        width: fit-content;
+
+    }
+
+    .slide {
+        flex-direction: column;
+    }
+
+    .offer {
+        width: 350px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img4 {
+        width: 350px;
+    }
+
+    *{
+        width: fit-content;
+    }
+    
+}

@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container5 h1{
+    text-align: center;
+    background-color: orange;
+    width: 100%;
+    
+}
+
+.robot3 {
+    display: flex;
+    gap: 10px;
+}
+
+.robot3 img{
+    width: 100px;
+}
+
+.callout {
+    display: flex;
+    width: 280px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    margin: 10px;
+    text-align: left;
+}
+
+.callout::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    transform: translateX(-50%);
+    border: 10px solid transparent;
+    border-bottom-color: #f0f0f0;
+
+}
+
+.chat-container {
+    max-width: 400px;
+    height: 100%;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.chat-container input {
+    width: 100%;
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.chat-box .message {
+    margin-bottom: 10px;
+}
+
+.calender {
+    display: none;
+    position: absolute;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+    padding: 10px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 10px;
+    margin-right: auto;
+    margin-left: 0;
+    gap: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #ccc;
+}
+
+.user-message {
+    display: block;
+    right: 0;
+    margin-left: auto;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 5px;
+    text-align: right;
+    color: black;
+    background-color: orange;
+}
+
+.bot-message {
+    text-align: left;
+    width: fit-content;
+    left: 0;
+    padding: 5px;
+    margin-right: auto;
+    border-radius: 5px;
+    color: black;
+    background-color: orangered;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

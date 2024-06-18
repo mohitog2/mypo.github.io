@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="aibot.css">
+</head>
+
+<body>
+    <div class="container5">
+        <h1>Start chatting!!</h1>
+        <div class="robot3">
+            <img src="https://static.wixstatic.com/media/4a49ed_11d810c5e1b947cda0a4f021d042d332~mv2.jpg/v1/fill/w_280,h_373,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/dreamstime_s_9239986_edited.jpg"
+                alt="robot">
+            <p class="callout">Welcome!! say hello to Moppy</p>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box"></div>
+        <div class="menu-container" id="menu-container">
+            <ul class="menu">
+                <li><button onclick="selectOption('flight')">flight</button></li>
+                <li><button onclick="selectOption('options')">options</button></li>
+                <li><button onclick="selectOption('help')">help</button></li>
+            </ul>
+        </div>
+        <input type="text" id="user-input" placeholder="Say hi to Moppy...">
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="openCalender()">Select Date</button>
+        <div id="calender" class="calender">
+            <input type="date">
+        </div>
+
+    </div>
+
+
+
+    <script src="aibot.js"></script>
+</body>
+
+</html>
